@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="223px" viewBox="0 0 258 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VueJS</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF3B3F" offset="0%"></stop>
+            <stop stop-color="#1D1D1D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Site-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-to-Still-Be-Converted---11/7/22" transform="translate(-399.000000, -602.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M450.499071,602 L527.747677,735.797377 L604.996283,602 L656.495353,602 L527.747677,825 L399,602 L450.499071,602 Z M503.07217,602 L527.747677,643.661747 L551.365182,602 L598.880892,602 L527.747677,725.960053 L455.556461,602 L503.07217,602 Z" id="VueJS"></path>
+        </g>
+    </g>
+</svg>

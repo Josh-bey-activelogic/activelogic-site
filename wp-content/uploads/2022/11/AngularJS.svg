@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="223px" viewBox="0 0 211 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AngularJS</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF3B3F" offset="0%"></stop>
+            <stop stop-color="#1D1D1D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Site-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-to-Still-Be-Converted---11/7/22" transform="translate(-847.000000, -404.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M950.738121,404 L1057.26888,440.304236 L1040.02026,577.636096 L950.738121,627 L862.852302,578.211049 L847,440.961326 L950.738121,404 Z M950.666252,429.645 L886.025,573.465626 L910.173066,573.054945 L923.150599,540.611114 L981.138812,540.611114 L995.348389,573.465626 L1018.42868,573.876307 L950.666252,429.645 Z M950.830525,475.723453 L972.678775,521.391225 L931.610635,521.391225 L950.830525,475.723453 Z" id="AngularJS"></path>
+        </g>
+    </g>
+</svg>

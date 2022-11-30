@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.77 124.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-2 {
+        fill: #949494;
+      }
+
+      .cls-3 {
+        fill: #4d4d4e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Angular-Logo">
+      <polygon id="Path" class="cls-3" points="0 20.7 58.1 0 117.77 20.33 108.11 97.21 58.1 124.9 8.88 97.57 0 20.7"/>
+      <polygon id="Path-2" data-name="Path" class="cls-2" points="117.77 20.33 58.1 0 58.1 124.9 108.11 97.25 117.77 20.33"/>
+      <path id="Shape" class="cls-1" d="M58.2,14.58h0L21.99,95.14l13.53-.23,7.27-18.17h32.48l7.96,18.4,12.93,.23L58.2,14.58h0Zm.09,25.81l12.24,25.58h-23l10.76-25.58h0Z"/>
+    </g>
+  </g>
+</svg>

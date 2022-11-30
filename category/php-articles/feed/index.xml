@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>PHP Archives - Active Logic</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>https://activelogic.io/category/php-articles/</link>
+	<description>Enterprise &#38; Database Solutions For Your Organization</description>
+	<lastBuildDate>Sat, 29 Oct 2022 21:41:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>/wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-32x32.jpg</url>
+	<title>PHP Archives - Active Logic</title>
+	<link>https://activelogic.io/category/php-articles/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Staff Augmentation for an Enterprise Community Engagement Platform</title>
+		<link>./../../../staff-augmentation-for-an-enterprise-community-engagement-platform/index.html</link>
+					<comments>./../../../staff-augmentation-for-an-enterprise-community-engagement-platform/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Brandon Lee]]></dc:creator>
+		<pubDate>Thu, 25 Aug 2022 20:01:21 +0000</pubDate>
+				<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[Case Studies]]></category>
+		<guid isPermaLink="false">https://activelogicio2.wpengine.com/?p=3651</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="./../../../staff-augmentation-for-an-enterprise-community-engagement-platform/index.html">Staff Augmentation for an Enterprise Community Engagement Platform</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="./../../../staff-augmentation-for-an-enterprise-community-engagement-platform/index.html">Staff Augmentation for an Enterprise Community Engagement Platform</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../staff-augmentation-for-an-enterprise-community-engagement-platform/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
