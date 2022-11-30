@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Full Stack Development Archives - Active Logic</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>https://activelogic.io/category/full-stack-development/</link>
+	<description>Enterprise &#38; Database Solutions For Your Organization</description>
+	<lastBuildDate>Sat, 29 Oct 2022 21:05:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>/wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-32x32.jpg</url>
+	<title>Full Stack Development Archives - Active Logic</title>
+	<link>https://activelogic.io/category/full-stack-development/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>5 Reasons to Hire a Full-Stack Agency With Senior Developers for Your App</title>
+		<link>./../../../5-reasons-to-hire-a-full-stack-agency/index.html</link>
+					<comments>./../../../5-reasons-to-hire-a-full-stack-agency/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Brandon Lee]]></dc:creator>
+		<pubDate>Mon, 29 Aug 2022 16:44:19 +0000</pubDate>
+				<category><![CDATA[Application Development]]></category>
+		<category><![CDATA[Full Stack Development]]></category>
+		<category><![CDATA[Insights]]></category>
+		<guid isPermaLink="false">https://activelogicio2.wpengine.com/?p=3898</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="./../../../5-reasons-to-hire-a-full-stack-agency/index.html">5 Reasons to Hire a Full-Stack Agency With Senior Developers for Your App</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="./../../../5-reasons-to-hire-a-full-stack-agency/index.html">5 Reasons to Hire a Full-Stack Agency With Senior Developers for Your App</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../5-reasons-to-hire-a-full-stack-agency/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>What Does it Mean to Hire a Full-Stack Developer?</title>
+		<link>./../../../what-does-it-mean-to-hire-a-full-stack-developer/index.html</link>
+					<comments>./../../../what-does-it-mean-to-hire-a-full-stack-developer/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Brandon Lee]]></dc:creator>
+		<pubDate>Mon, 29 Aug 2022 16:21:05 +0000</pubDate>
+				<category><![CDATA[Full Stack Development]]></category>
+		<category><![CDATA[Insights]]></category>
+		<guid isPermaLink="false">https://activelogicio2.wpengine.com/?p=3894</guid>
+
+					<description><![CDATA[<p>The post <a rel="nofollow" href="./../../../what-does-it-mean-to-hire-a-full-stack-developer/index.html">What Does it Mean to Hire a Full-Stack Developer?</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="./../../../what-does-it-mean-to-hire-a-full-stack-developer/index.html">What Does it Mean to Hire a Full-Stack Developer?</a> appeared first on <a rel="nofollow" href="./../../../index.html">Active Logic</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../what-does-it-mean-to-hire-a-full-stack-developer/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

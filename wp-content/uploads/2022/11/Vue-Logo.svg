@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.69 124.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-2 {
+        fill: #4d4d4e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Vue-Logo">
+      <polygon id="Path" class="cls-2" points="89.05 0 72.34 28.84 55.64 0 0 0 72.34 124.9 144.69 0 89.05 0"/>
+      <polygon id="Path-2" data-name="Path" class="cls-1" points="88.81 0 72.03 28.32 55.25 0 28.44 0 72.03 73.58 115.63 0 88.81 0"/>
+    </g>
+  </g>
+</svg>

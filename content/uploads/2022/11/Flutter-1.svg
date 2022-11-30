@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110.25 136.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="111.6" y1="-585.56" x2="111.6" y2="-586.24" gradientTransform="translate(-17978.77 -117111.8) scale(161.59 -200)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef4044"/>
+      <stop offset="1" stop-color="#1c1d1d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="Flutter" class="cls-1" d="M110.25,62.95l-36.74,36.75,.73,.73,36.02,36.02h-42.02l-15.74-15.74,.02-.02-20.98-20.98,20.98-20.98,20.98,20.98-18.65,18.65,18.66-18.66-21.01-21.01,15.74-15.74h42.02Zm0-62.95L21.01,89.23,0,68.22,68.23,0h42.02Z"/>
+  </g>
+</svg>

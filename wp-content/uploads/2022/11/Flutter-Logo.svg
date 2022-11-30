@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.91 124.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #bfbfbf;
+      }
+
+      .cls-3 {
+        fill: #4d4d4e;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-642.57" y1="-75.19" x2="-642.49" y2="-75.27" gradientTransform="translate(22574.28 -2533.94) scale(35.04 -35.04)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#000" stop-opacity=".15"/>
+      <stop offset=".85" stop-color="#616261" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-647.04" y1="-77.19" x2="-646.42" y2="-77.19" gradientTransform="translate(29615.07 -2276.44) scale(45.7 -30.8)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#000" stop-opacity=".55"/>
+      <stop offset=".85" stop-color="#616261" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Flutter-Logo">
+      <path id="Shape" class="cls-3" d="M19.23,81.68L0,62.45,62.45,0h38.46m0,57.62H62.45l-14.41,14.41,19.23,19.23"/>
+      <polyline id="Path" class="cls-2" points="48.04 110.49 62.45 124.9 100.91 124.9 67.28 91.27"/>
+      <polygon id="Path-2" data-name="Path" class="cls-2" points="28.86 91.28 48.06 72.07 67.26 91.27 48.06 110.48 28.86 91.28"/>
+      <polygon id="Path-3" data-name="Path" class="cls-1" points="48.06 110.48 67.26 91.28 69.94 93.96 50.74 113.16 48.06 110.48"/>
+      <polyline id="Path-4" data-name="Path" class="cls-4" points="48.04 110.49 76.58 100.63 67.28 91.26"/>
+    </g>
+  </g>
+</svg>

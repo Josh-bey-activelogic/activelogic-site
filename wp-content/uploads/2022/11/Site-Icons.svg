@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.6 140.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfbfbf;
+      }
+
+      .cls-2 {
+        fill: #4d4d4e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Site-Icons">
+      <g id="Desktop-HD-Copy">
+        <g id="_.NET-Logo" data-name=".NET-Logo">
+          <polygon id="Path" class="cls-1" points="66.82 66.82 0 66.82 0 0 66.82 0 66.82 66.82"/>
+          <polygon id="Path-2" data-name="Path" class="cls-2" points="140.6 66.82 73.78 66.82 73.78 0 140.6 0 140.6 66.82"/>
+          <polygon id="Path-3" data-name="Path" class="cls-2" points="66.82 140.6 0 140.6 0 73.78 66.82 73.78 66.82 140.6"/>
+          <polygon id="Path-4" data-name="Path" class="cls-1" points="140.6 140.6 73.78 140.6 73.78 73.78 140.6 73.78 140.6 140.6"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

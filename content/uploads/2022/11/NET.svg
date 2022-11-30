@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="223px" viewBox="0 0 223 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>NET</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF3B3F" offset="0%"></stop>
+            <stop stop-color="#1D1D1D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Site-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-to-Still-Be-Converted---11/7/22" transform="translate(-1274.000000, -404.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1379.9802,509.980198 L1274,509.980198 L1274,404 L1379.9802,404 L1379.9802,509.980198 Z M1497,509.980198 L1391.0198,509.980198 L1391.0198,404 L1497,404 L1497,509.980198 Z M1379.9802,627 L1274,627 L1274,521.019802 L1379.9802,521.019802 L1379.9802,627 Z M1497,627 L1391.0198,627 L1391.0198,521.019802 L1497,521.019802 L1497,627 Z" id=".NET"></path>
+        </g>
+    </g>
+</svg>
