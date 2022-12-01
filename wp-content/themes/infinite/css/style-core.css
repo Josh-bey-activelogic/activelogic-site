@@ -1935,3 +1935,6 @@ li.product .gdlr-core-product-default .gdlr-core-product-price ins{ text-decorat
     background-position: calc(100% - 6px) center;
     background-repeat: no-repeat; }
 .woocommerce .woocommerce-ordering select:focus { outline: none; }
+.custom-ul ul{
+	padding-left: 0em;
+}
