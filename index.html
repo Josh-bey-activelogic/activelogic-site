@@ -56,8 +56,6 @@
     <link rel="stylesheet" id="infinite-mmenu-css" href="./content/themes/infinite/css/mmenu.css?ver=81582bdb254a94e4464424087c6479a8" type="text/css" media="all">
 
     <script type="text/javascript" src="./includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
-
-
     <script type="text/javascript" src="./content/plugins/ays-popup-box/public/js/ays-pb-public.js?ver=3.2.5" id="ays-pb-js"></script>
     <!--[if lt IE 9]>
 <script type='text/javascript' src='https://44.206.207.19/wp-content/themes/infinite/js/html5.js?ver=81582bdb254a94e4464424087c6479a8' id='infinite-html5js-js'></script>
@@ -72,31 +70,16 @@
     <!-- HFCM by 99 Robots - Snippet # 1: AO Tracker -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KKPWF4T');
-    </script>
+    <script src="scripts/gtm.js"></script>
     <script src="scripts/ao-tracker.js"></script>
+    
     <!-- /end HFCM by 99 Robots -->
-
     <meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
     <link rel="icon" href="./wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-32x32.jpg" sizes="32x32">
     <link rel="icon" href="./wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-192x192.jpg" sizes="192x192">
     <link rel="apple-touch-icon" href="./wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-180x180.jpg">
     <meta name="msapplication-TileImage" content="/wp-content/uploads/2022/10/cropped-Active-Logic-Logo-Plain-9-270x270.jpg">
-    
+
 
 </head>
 
@@ -2014,50 +1997,49 @@
 
 
 
-                                                    <div>
 
-                                                        <form data-form-name="contact" class="ao-form" action="https://activeoffice.app/tracker/submit/inquiry" method="POST">
+                                                    <form data-form-name="contact" class="ao-form" action="https://activeoffice.app/tracker/submit/inquiry" method="POST">
 
-                                                            <div class="row">
-                                                                <div class="col col-6">
-                                                                    <label for="name_field">Name *</label>
-                                                                    <input id="name_field" type="text" name="name" class="form-control rounded-0">
-                                                                </div>
-                                                                <div class="col col-6">
-                                                                    <label for="company_field">Company</label>
-                                                                    <input id="company_field" type="text" name="company" class="form-control rounded-0">
-                                                                </div>
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <label for="name_field">Name *</label>
+                                                                <input id="name_field" type="text" name="name" class="form-control rounded-0">
                                                             </div>
-
-                                                            <div class="row top-buffer">
-                                                                <div class="col col-6">
-                                                                    <label for="email_field">Email Address *</label>
-                                                                    <input id="email_field" type="text" name="email" class="form-control rounded-0">
-                                                                </div>
-                                                                <div class="col col-6">
-                                                                    <label for="phone_field">Phone Number</label>
-                                                                    <input id="phone_field" type="text" name="phone" class="form-control rounded-0">
-                                                                </div>
+                                                            <div class="col col-6">
+                                                                <label for="company_field">Company</label>
+                                                                <input id="company_field" type="text" name="company" class="form-control rounded-0">
                                                             </div>
+                                                        </div>
 
-                                                            <div class="row top-buffer">
-                                                                <div class="col col-12">
-                                                                    <label for="message_field">Tell us a little about this project *</label>
-                                                                    <textarea id="message_field" name="message" class="form-control rounded-0" rows="4"></textarea>
-                                                                </div>
+                                                        <div class="row top-buffer">
+                                                            <div class="col col-6">
+                                                                <label for="email_field">Email Address *</label>
+                                                                <input id="email_field" type="text" name="email" class="form-control rounded-0">
                                                             </div>
-
-                                                            <div class="row top-buffer">
-                                                                <div class="col col-12">
-                                                                    <button type="submit" class="btn btn-danger rounded-0">Submit</button>
-                                                                </div>
+                                                            <div class="col col-6">
+                                                                <label for="phone_field">Phone Number</label>
+                                                                <input id="phone_field" type="text" name="phone" class="form-control rounded-0">
                                                             </div>
-                                                             <input type="hidden" name="uuid" value="">
-                                                            <input type="text" name="honey_pot" value="" style="height:1px;border:none;background:none;">
-                                                        </form>
+                                                        </div>
 
-                                                    </div>
-                                                    
+                                                        <div class="row top-buffer">
+                                                            <div class="col col-12">
+                                                                <label for="message_field">Tell us a little about this project *</label>
+                                                                <textarea id="message_field" name="message" class="form-control rounded-0" rows="4"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row top-buffer">
+                                                            <div class="col col-12">
+                                                                <button type="submit" class="btn btn-danger rounded-0">Submit</button>
+                                                            </div>
+                                                        </div>
+                                                        <input type="hidden" name="uuid" value="">
+                                                        <input type="text" name="honey_pot" value="" style="height:1px;border:none;background:none;">
+                                                    </form>
+
+
+
                                                     <p></p>
                                                 </div>
                                             </div>
@@ -2079,7 +2061,7 @@
                                     <p>Amplifying your organization’s digital initiatives with our all-American, expert development team!</p>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div class="infinite-footer-column infinite-item-pdlr infinite-column-15">
                             <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget infinite-widget">
@@ -2572,7 +2554,7 @@
         }
     </style>
 
- <style>
+    <style>
         .AboutUsPopup {
             background-color: rgba(255, 255, 255, 0)
         }
@@ -2602,11 +2584,7 @@
                     <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
                 </svg></label>
         </div>
-        <script>
-            (function($) {
 
-            })(jQuery);
-        </script>
         <script>
             jQuery(document).find('.ays-pb-modal_3').css({
                 'top': '0',
@@ -2773,7 +2751,7 @@
         }
     </style>
 
-   
+
     <style>
         .contactUsPopup {
             padding: 5% 5% 0% 5%;
@@ -2827,56 +2805,43 @@
 
                             <br>
                         </style>
-                        <p>
-                            <script>
-                                < \/p> <
-                                p > $(function() {
-                                    <
-                                    \/p> <
-                                    p > $(document).on('submit', '.ao-form', function() {
-                                        $(".ao-form button[type='submit']").text('Just a moment...').prop('disabled', true)
-                                    }); < \/p> <
-                                    p >
-                                }); < \/p> <
-                                p >
-                            </script>
-                        </p>
-                        <div>
-                            <form class="ao-form" action="https://activeoffice.app/tracker/submit/inquiry" method="POST" data-form-name="contact">
-                                <div class="row">
-                                    <div class="col col-6">
-                                        <label for="name_field">Name *</label><br>
-                                        <input id="name_field" class="form-control rounded-0" name="name" type="text">
-                                    </div>
-                                    <div class="col col-6">
-                                        <label for="company_field">Company</label><br>
-                                        <input id="company_field" class="form-control rounded-0" name="company" type="text">
-                                    </div>
+
+
+                        <form class="ao-form" action="https://activeoffice.app/tracker/submit/inquiry" method="POST" data-form-name="contact">
+                            <div class="row">
+                                <div class="col col-6">
+                                    <label for="name_field">Name *</label><br>
+                                    <input id="name_field" class="form-control rounded-0" name="name" type="text">
                                 </div>
-                                <div class="row top-buffer">
-                                    <div class="col col-6">
-                                        <label for="email_field">Email Address *</label><br>
-                                        <input id="email_field" class="form-control rounded-0" name="email" type="text">
-                                    </div>
-                                    <div class="col col-6">
-                                        <label for="phone_field">Phone Number</label><br>
-                                        <input id="phone_field" class="form-control rounded-0" name="phone" type="text">
-                                    </div>
+                                <div class="col col-6">
+                                    <label for="company_field">Company</label><br>
+                                    <input id="company_field" class="form-control rounded-0" name="company" type="text">
                                 </div>
-                                <div class="row top-buffer">
-                                    <div class="col col-12">
-                                        <label for="message_field">Tell us a little about this project *</label><br>
-                                        <textarea id="message_field" class="form-control rounded-0" name="message" rows="4"></textarea>
-                                    </div>
+                            </div>
+                            <div class="row top-buffer">
+                                <div class="col col-6">
+                                    <label for="email_field">Email Address *</label><br>
+                                    <input id="email_field" class="form-control rounded-0" name="email" type="text">
                                 </div>
-                                <div> <input type="hidden" name="uuid" value="14816"></div>
-                    
-                                <div class="row top-buffer">
-                                    <div class="col col-12"><button class="btn btn-danger rounded-0" type="submit">Submit</button></div>
+                                <div class="col col-6">
+                                    <label for="phone_field">Phone Number</label><br>
+                                    <input id="phone_field" class="form-control rounded-0" name="phone" type="text">
                                 </div>
-                                <p><input style="height: 1px; border: none; background: none;" name="honey_pot" type="text" value=""></p>
-                            </form>
-                        </div>
+                            </div>
+                            <div class="row top-buffer">
+                                <div class="col col-12">
+                                    <label for="message_field">Tell us a little about this project *</label><br>
+                                    <textarea id="message_field" class="form-control rounded-0" name="message" rows="4"></textarea>
+                                </div>
+                            </div>
+                            <div> <input type="hidden" name="uuid" value="14816"></div>
+
+                            <div class="row top-buffer">
+                                <div class="col col-12"><button class="btn btn-danger rounded-0" type="submit">Submit</button></div>
+                            </div>
+                            <p><input style="height: 1px; border: none; background: none;" name="honey_pot" type="text" value=""></p>
+                        </form>
+
                     </div>
 
                     <div class="ays-pb-dismiss-ad ays_pb_display_none" data-dismiss="" data-id="4">
@@ -3044,435 +3009,7 @@
         }
     </style>
 
-    <script>
-        (function($) {
-            'use strict';
-            $(document).ready(function() {
-                var ays_flag = true;
-                var show_only_once = 'off';
 
-                $(document).find('.ContactUsPopup').on('click', function() {
-                    $(document).find('.ays_music_sound').css({
-                        'display': 'block'
-                    });
-
-                    if (show_only_once == 'on') {
-                        $.ajax({
-                            url: 'https://44.206.207.19/wp-admin/admin-ajax.php',
-                            method: 'post',
-                            dataType: 'json',
-                            data: {
-                                action: 'ays_pb_set_cookie_only_once',
-                                id: 4,
-                                title: 'Contact Us',
-                            },
-                        });
-                    }
-
-                    var dataAttr = $(document).find('.ays-pb-modal_4').attr('data-ays-flag');
-                    if (ays_flag && dataAttr == 'true') {
-                        ays_flag = false;
-                        $(document).find('.av_pop_modals_4').css('display', 'block');
-                        $(document).find('.av_pop_modals_4').css('pointer-events', 'auto');
-                        $(document).find('.ays_pb_timer_4 span').html($(document).find('.ays_pb_timer_4 span').attr('data-ays-seconds'));
-                        clearInterval(timer_pb_4);
-                        timer_pb_4 = null;
-                        $(document).find('.ays-pb-modal_4').removeClass($(document).find('#ays_pb_modal_animate_out_4').val());
-                        $(document).find('.ays-pb-modal_4').addClass($(document).find('#ays_pb_modal_animate_in_4').val());
-                        $(document).find('.ays-pb-modal_4').css('display', 'block');
-                        $(document).find('#ays-pb-screen-shade_4').css({
-                            'opacity': '0.5',
-                            'display': 'block'
-                        });
-                        $(document).find('.ays-pb-modal-check_4').prop('checked', true);
-                        $(document).find('.ays-pb-modal-check_4').attr('checked', true);
-                        // $(document).find('#ays-pb-modal-checkbox_4').trigger('click');
-                        var ays_pb_animation_close_speed = $(document).find('#ays_pb_animation_close_speed_4').val();
-                        var ays_pb_animation_close_seconds = (ays_pb_animation_close_speed / 1000);
-                        var sound_src = $(document).find('#ays_pb_sound_4').attr('src');
-                        var close_sound_src = $(document).find('#ays_pb_close_sound_4').attr('src');
-
-                        ays_pb_animation_close_speed = parseFloat(ays_pb_animation_close_speed) - 50;
-
-                        if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                            $('#ays_pb_sound_4').get(0).play();
-                            $(document).find('.ays_pb_pause_sound_4').on('click', function() {
-                                var audio = $('#ays_pb_sound_4').get(0);
-                                audio.pause();
-                                audio.currentTime = 0;
-                            });
-                        }
-                        //close sound start
-                        if ('0.5' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                            if ('0.5' !== 0) {
-                                $(document).find('.ays_pb_pause_sound_4').on('click', function() {
-                                    $('#ays_pb_close_sound_4').get(0).play();
-                                    if (ays_pb_effectOut_4 != 'none') {
-                                        setTimeout(function() {
-                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                            var audio = $('#ays_pb_close_sound_4').get(0);
-                                            audio.pause();
-                                            audio.currentTime = 0;
-                                            clearInterval(timer_pb_4);
-                                        }, ays_pb_animation_close_speed);
-                                    } else {
-                                        $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                        var audio = $('#ays_pb_close_sound_4').get(0);
-                                        audio.pause();
-                                        audio.currentTime = 0;
-                                    }
-                                });
-                            }
-                        }
-                        //close sound end
-
-                        var time_pb_str_4 = $(document).find('.ays_pb_timer_4 span').attr('data-ays-seconds');
-                        var time_pb_4 = parseInt(time_pb_str_4);
-                        if (time_pb_4 !== undefined) {
-                            if (time_pb_4 !== 0) {
-                                var timer_pb_4 = setInterval(function() {
-                                    let newTime_pb_4 = time_pb_4--;
-                                    let ays_pb_effectOut_4 = $(document).find('#ays_pb_modal_animate_out_4').val();
-                                    $(document).find('.ays_pb_timer_4 span').text(newTime_pb_4);
-                                    $(document).find('.ays-pb-modal_4').css({
-                                        'animation-duration': ays_pb_animation_close_seconds + 's'
-                                    });
-                                    if (newTime_pb_4 <= 0) {
-                                        $(document).find('.ays-pb-modal-close_4').trigger('click');
-                                        $(document).find('.ays-pb-modal_4').attr('class', 'ays_minimal_window ays-pb-modal_4 contactUsPopup ' + $(document).find('#ays_pb_modal_animate_out_4').val());
-
-                                        if (ays_pb_effectOut_4 != 'none') {
-                                            setTimeout(function() {
-                                                $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                ays_flag = true;
-                                            }, ays_pb_animation_close_speed);
-                                        } else {
-                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                            ays_flag = true;
-                                        }
-                                        if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                            var audio = $('#ays_pb_sound_4').get(0);
-                                            audio.pause();
-                                            audio.currentTime = 0;
-                                            clearInterval(timer_pb_4);
-                                        }
-                                        if ('0.5' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                            if ('0.5' !== 0) {
-                                                $('#ays_pb_close_sound_4').get(0).play();
-                                                if (ays_pb_effectOut_4 != 'none') {
-                                                    setTimeout(function() {
-                                                        $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                        ays_flag = true;
-                                                        var audio = $('#ays_pb_close_sound_4').get(0);
-                                                        audio.pause();
-                                                        audio.currentTime = 0;
-                                                        clearInterval(timer_pb_4);
-                                                    }, ays_pb_animation_close_speed);
-                                                } else {
-                                                    $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                    ays_flag = true;
-                                                    var audio = $('#ays_pb_close_sound_4').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                }
-                                            }
-                                        }
-                                    }
-                                    $(document).find('.ays-pb-modal-close_4').one('click', function() {
-                                        $(document).find('.av_pop_modals_4').css('pointer-events', 'none');
-                                        $(document).find('.ays-pb-modal_4').attr('class', 'ays_minimal_window ays-pb-modal_4 contactUsPopup ' + ays_pb_effectOut_4);
-                                        $(this).parents('.ays-pb-modals').find('iframe').each(function() {
-                                            var key = /https:\/\/www.youtube.com/;
-                                            var src = $(this).attr('src');
-                                            $(this).attr('src', $(this).attr('src'));
-                                        });
-                                        $(this).parents('.ays-pb-modals').find('video.wp-video-shortcode').each(function() {
-                                            if (typeof $(this).get(0) != 'undefined') {
-                                                if (!$(this).get(0).paused) {
-                                                    $(this).get(0).pause();
-                                                }
-
-                                            }
-                                        });
-                                        $(this).parents('.ays-pb-modals').find('audio.wp-audio-shortcode').each(function() {
-                                            if (typeof $(this).get(0) != 'undefined') {
-                                                if (!$(this).get(0).paused) {
-                                                    $(this).get(0).pause();
-                                                }
-
-                                            }
-                                        });
-
-                                        if (ays_pb_effectOut_4 != 'none') {
-                                            setTimeout(function() {
-                                                $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                ays_flag = true;
-                                            }, ays_pb_animation_close_speed);
-                                        } else {
-                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                            ays_flag = true;
-                                        }
-                                        $(document).find('#ays-pb-screen-shade_4').css({
-                                            'opacity': '0',
-                                            'display': 'none'
-                                        });
-                                        clearInterval(timer_pb_4);
-                                    });
-
-                                    var ays_pb_flag = true;
-                                    $(document).on('keydown', function(event) {
-                                        if ('1' && ays_pb_flag) {
-                                            if (event.keyCode == 27) {
-                                                $(document).find('.ays-pb-modal-close_4').trigger('click');
-                                                ays_pb_flag = false;
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_4').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_4);
-                                                }
-                                                if ('0.5' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('0.5' !== 0) {
-                                                        $('#ays_pb_close_sound_4').get(0).play();
-                                                        if (ays_pb_effectOut_4 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_4').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                                clearInterval(timer_pb_4);
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_4').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                            clearInterval(timer_pb_4);
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    });
-                                }, 1000);
-                                if ('clickSelector' != 'both') {
-                                    if ('1' && 'On' == 'On') {
-                                        $(document).find('#ays-pb-screen-shade_4').on('click', function() {
-                                            var pb_parent_div = $(this).find('.ays-pb-modals');
-                                            var pb_div = $(this).parents('.ays-pb-modals').find('.ays-pb-modal_4');
-                                            if (!pb_parent_div.is(pb_div) && pb_parent_div.has(pb_div).length === 0) {
-                                                $(document).find('.ays-pb-modal-close_4').click();
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_4').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_4);
-                                                }
-                                                if ('0.5' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('0.5' !== 0) {
-                                                        $('#ays_pb_close_sound_4').get(0).play();
-                                                        if (ays_pb_effectOut_4 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_4').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_4').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    }
-                                } else {
-                                    if ('1' && 'On' == 'On') {
-                                        $(document).find('.av_pop_modals_4').on('click', function(e) {
-                                            var pb_parent_div = $(this);
-                                            var pb_div = $(this).find('.ays-pb-modal_4');
-                                            if (!pb_div.is(e.target) && pb_div.has(e.target).length === 0) {
-                                                $(document).find('.ays-pb-modal-close_4').click();
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_4').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_4);
-                                                }
-                                                if ('0.5' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('0.5' !== 0) {
-                                                        $('#ays_pb_close_sound_4').get(0).play();
-                                                        if (ays_pb_effectOut_4 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_4').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                                clearInterval(timer_pb_4);
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_4').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    }
-                                }
-                            } else {
-                                $(document).find('.ays_pb_timer_4').css('display', 'none');
-                                $(document).find('.ays-pb-modal_4').css({
-                                    'animation-duration': ays_pb_animation_close_seconds + 's'
-                                });
-                                $(document).find('.ays-pb-modal-close_4').one('click', function() {
-                                    let ays_pb_effectOut_4 = $(document).find('#ays_pb_modal_animate_out_4').val();
-                                    $(document).find('.av_pop_modals_4').css('pointer-events', 'none');
-                                    $(document).find('.ays-pb-modal_4').attr('class', 'ays_minimal_window ays-pb-modal_4 contactUsPopup ' + ays_pb_effectOut_4);
-                                    $(this).parents('.ays-pb-modals').find('iframe').each(function() {
-                                        var key = /https:\/\/www.youtube.com/;
-                                        var src = $(this).attr('src');
-                                        $(this).attr('src', $(this).attr('src'));
-                                    });
-                                    $(this).parents('.ays-pb-modals').find('video.wp-video-shortcode').each(function() {
-                                        if (typeof $(this).get(0) != 'undefined') {
-                                            if (!$(this).get(0).paused) {
-                                                $(this).get(0).pause();
-                                            }
-
-                                        }
-                                    });
-                                    $(this).parents('.ays-pb-modals').find('audio.wp-audio-shortcode').each(function() {
-                                        if (typeof $(this).get(0) != 'undefined') {
-                                            if (!$(this).get(0).paused) {
-                                                $(this).get(0).pause();
-                                            }
-
-                                        }
-                                    });
-                                    if (ays_pb_effectOut_4 != 'none') {
-                                        setTimeout(function() {
-                                            $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                            $(document).find('.av_pop_modals_4').css('display', 'none');
-                                            ays_flag = true;
-                                        }, ays_pb_animation_close_speed);
-                                    } else {
-                                        $(document).find('.ays-pb-modal_4').css('display', 'none');
-                                        $(document).find('.av_pop_modals_4').css('display', 'none');
-                                        ays_flag = true;
-                                    }
-
-                                    $(document).find('#ays-pb-screen-shade_4').css({
-                                        'opacity': '0',
-                                        'display': 'none'
-                                    });
-                                });
-                            }
-                        }
-
-
-                        if ('1') {
-                            $(document).find('body').removeClass('pb_enable_scroll');
-                            $(document).find('body').addClass('pb_disable_scroll');
-
-                            $(document).find('html').removeClass('pb_enable_scroll');
-                            $(document).find('html').addClass('pb_disable_scroll');
-                            jQuery(document).on('click', '.ays-pb-modal-close_4', function() {
-                                $(document).find('body').removeClass('pb_disable_scroll');
-                                $(document).find('body').addClass('pb_enable_scroll');
-
-                                $(document).find('html').removeClass('pb_disable_scroll');
-                                $(document).find('html').addClass('pb_enable_scroll');
-                            });
-                        }
-
-                        if ('On' != 'On') {
-                            $(document).find('#ays-pb-screen-shade_4').css({
-                                'opacity': '0',
-                                'display': 'none !important',
-                                'pointer-events': 'none'
-                            });
-                            $(document).find('.ays-pb-modal_4').css('pointer-events', 'auto');
-                            $(document).find('.av_pop_modals_4').css('pointer-events', 'none');
-                        };
-                        if (0 != 0 && 'off' != 'on') {
-                            $(document).find('.ays-pb-modal-close_4').css({
-                                'display': 'none'
-                            });
-                            setTimeout(function() {
-                                $(document).find('.ays-pb-modal-close_4').css({
-                                    'display': 'block'
-                                });
-                            }, 0);
-                        };
-                    }
-                    if (0 == 0) {
-                        if ('1' && 'On' == 'On') {
-                            $(document).find('.av_pop_modals_4').on('click', function(e) {
-                                var pb_parent = $(this);
-                                var pb_div = $(this).find('.ays-pb-modal_4');
-                                if (!pb_div.is(e.target) && pb_div.has(e.target).length === 0) {
-                                    $(document).find('.ays-pb-modal-close_4').click();
-                                }
-                            });
-                        }
-                        var ays_pb_flag = true;
-                        $(document).on('keydown', function(event) {
-                            if ('1' && ays_pb_flag) {
-                                if (event.keyCode == 27) {
-                                    $(document).find('.ays-pb-modal-close_4').trigger('click');
-                                    ays_pb_flag = false;
-                                }
-                            }
-                        });
-                    }
-                });
-                if ('On' != 'On') {
-                    $(document).find('#ays-pb-screen-shade_4').css({
-                        'opacity': '0',
-                        'display': 'none !important',
-                        'pointer-events': 'none'
-                    });
-                    $(document).find('.ays-pb-modal_4').css('pointer-events', 'auto');
-                    $(document).find('.av_pop_modals_4').css('pointer-events', 'none');
-                };
-                if ('clickSelector' != 'both') {
-                    if ($(document).find('.ays-pb-modals video').hasClass('wp-video-shortcode')) {
-                        var videoWidth = $(document).find('.ays-pb-modals video.wp-video-shortcode').attr('width');
-                        var videoHeight = $(document).find('.ays-pb-modals video.wp-video-shortcode').attr('height');
-                        setTimeout(function() {
-                            $(document).find('.ays-pb-modals .wp-video').removeAttr('style');
-                            $(document).find('.ays-pb-modals .mejs-container').removeAttr('style');
-                            $(document).find('.ays-pb-modals video.wp-video-shortcode').removeAttr('style');
-
-                            $(document).find('.ays-pb-modals .wp-video').css({
-                                'width': '100%'
-                            });
-                            $(document).find('.ays-pb-modals .mejs-container').css({
-                                'width': '100%',
-                                'height': videoHeight + 'px'
-                            });
-                            $(document).find('.ays-pb-modals video.wp-video-shortcode').css({
-                                'width': '100%',
-                                'height': videoHeight + 'px'
-                            });
-                        }, 1000);
-                    }
-                    if ($(document).find('.ays-pb-modals iframe').attr('style') != '') {
-                        setTimeout(function() {
-                            $(document).find('.ays-pb-modals iframe').removeAttr('style');
-                        }, 500);
-                    }
-                }
-
-            });
-        })(jQuery);
-    </script>
     <style>
         .TaaSPopup {
             background-color: rgba(255, 255, 255, 0)
@@ -3674,442 +3211,7 @@
         }
     </style>
 
-    <script>
-        (function($) {
-            'use strict';
-            $(document).ready(function() {
-                var ays_flag = true;
-                var show_only_once = 'off';
 
-                $(document).find('.TaaSPopup').on('click', function() {
-                    $(document).find('.ays_music_sound').css({
-                        'display': 'block'
-                    });
-
-                    if (show_only_once == 'on') {
-                        $.ajax({
-                            url: 'https://44.206.207.19/wp-admin/admin-ajax.php',
-                            method: 'post',
-                            dataType: 'json',
-                            data: {
-                                action: 'ays_pb_set_cookie_only_once',
-                                id: 5,
-                                title: 'TaaS Video',
-                            },
-                        });
-                    }
-
-                    var dataAttr = $(document).find('.ays-pb-modal_5').attr('data-ays-flag');
-                    if (ays_flag && dataAttr == 'true') {
-                        ays_flag = false;
-                        $(document).find('.av_pop_modals_5').css('display', 'block');
-                        $(document).find('.av_pop_modals_5').css('pointer-events', 'auto');
-                        $(document).find('.ays_pb_timer_5 span').html($(document).find('.ays_pb_timer_5 span').attr('data-ays-seconds'));
-                        clearInterval(timer_pb_5);
-                        timer_pb_5 = null;
-                        $(document).find('.ays-pb-modal_5').removeClass($(document).find('#ays_pb_modal_animate_out_5').val());
-                        $(document).find('.ays-pb-modal_5').addClass($(document).find('#ays_pb_modal_animate_in_5').val());
-                        $(document).find('.ays-pb-modal_5').css('display', 'block');
-                        $(document).find('#ays-pb-screen-shade_5').css({
-                            'opacity': '0.5',
-                            'display': 'block'
-                        });
-                        $(document).find('.ays-pb-modal-check_5').prop('checked', true);
-                        $(document).find('.ays-pb-modal-check_5').attr('checked', true);
-                        // $(document).find('#ays-pb-modal-checkbox_5').trigger('click');
-                        var ays_pb_animation_close_speed = $(document).find('#ays_pb_animation_close_speed_5').val();
-                        var ays_pb_animation_close_seconds = (ays_pb_animation_close_speed / 1000);
-                        var sound_src = $(document).find('#ays_pb_sound_5').attr('src');
-                        var close_sound_src = $(document).find('#ays_pb_close_sound_5').attr('src');
-
-                        ays_pb_animation_close_speed = parseFloat(ays_pb_animation_close_speed) - 50;
-
-                        if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                            $('#ays_pb_sound_5').get(0).play();
-                            $(document).find('.ays_pb_pause_sound_5').on('click', function() {
-                                var audio = $('#ays_pb_sound_5').get(0);
-                                audio.pause();
-                                audio.currentTime = 0;
-                            });
-                        }
-                        //close sound start
-                        if ('1' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                            if ('1' !== 0) {
-                                $(document).find('.ays_pb_pause_sound_5').on('click', function() {
-                                    $('#ays_pb_close_sound_5').get(0).play();
-                                    if (ays_pb_effectOut_5 != 'none') {
-                                        setTimeout(function() {
-                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                            var audio = $('#ays_pb_close_sound_5').get(0);
-                                            audio.pause();
-                                            audio.currentTime = 0;
-                                            clearInterval(timer_pb_5);
-                                        }, ays_pb_animation_close_speed);
-                                    } else {
-                                        $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                        var audio = $('#ays_pb_close_sound_5').get(0);
-                                        audio.pause();
-                                        audio.currentTime = 0;
-                                    }
-                                });
-                            }
-                        }
-                        //close sound end
-
-                        var time_pb_str_5 = $(document).find('.ays_pb_timer_5 span').attr('data-ays-seconds');
-                        var time_pb_5 = parseInt(time_pb_str_5);
-                        if (time_pb_5 !== undefined) {
-                            if (time_pb_5 !== 0) {
-                                var timer_pb_5 = setInterval(function() {
-                                    let newTime_pb_5 = time_pb_5--;
-                                    let ays_pb_effectOut_5 = $(document).find('#ays_pb_modal_animate_out_5').val();
-                                    $(document).find('.ays_pb_timer_5 span').text(newTime_pb_5);
-                                    $(document).find('.ays-pb-modal_5').css({
-                                        'animation-duration': ays_pb_animation_close_seconds + 's'
-                                    });
-                                    if (newTime_pb_5 <= 0) {
-                                        $(document).find('.ays-pb-modal-close_5').trigger('click');
-                                        $(document).find('.ays-pb-modal_5').attr('class', 'ays-pb-modal ays-pb-modal_5 TaaSPopup ' + $(document).find('#ays_pb_modal_animate_out_5').val());
-
-                                        if (ays_pb_effectOut_5 != 'none') {
-                                            setTimeout(function() {
-                                                $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                ays_flag = true;
-                                            }, ays_pb_animation_close_speed);
-                                        } else {
-                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                            ays_flag = true;
-                                        }
-                                        if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                            var audio = $('#ays_pb_sound_5').get(0);
-                                            audio.pause();
-                                            audio.currentTime = 0;
-                                            clearInterval(timer_pb_5);
-                                        }
-                                        if ('1' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                            if ('1' !== 0) {
-                                                $('#ays_pb_close_sound_5').get(0).play();
-                                                if (ays_pb_effectOut_5 != 'none') {
-                                                    setTimeout(function() {
-                                                        $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                        ays_flag = true;
-                                                        var audio = $('#ays_pb_close_sound_5').get(0);
-                                                        audio.pause();
-                                                        audio.currentTime = 0;
-                                                        clearInterval(timer_pb_5);
-                                                    }, ays_pb_animation_close_speed);
-                                                } else {
-                                                    $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                    ays_flag = true;
-                                                    var audio = $('#ays_pb_close_sound_5').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                }
-                                            }
-                                        }
-                                    }
-                                    $(document).find('.ays-pb-modal-close_5').one('click', function() {
-                                        $(document).find('.av_pop_modals_5').css('pointer-events', 'none');
-                                        $(document).find('.ays-pb-modal_5').attr('class', 'ays-pb-modal ays-pb-modal_5 TaaSPopup ' + ays_pb_effectOut_5);
-                                        $(this).parents('.ays-pb-modals').find('iframe').each(function() {
-                                            var key = /https:\/\/www.youtube.com/;
-                                            var src = $(this).attr('src');
-                                            $(this).attr('src', $(this).attr('src'));
-                                        });
-                                        $(this).parents('.ays-pb-modals').find('video.wp-video-shortcode').each(function() {
-                                            if (typeof $(this).get(0) != 'undefined') {
-                                                if (!$(this).get(0).paused) {
-                                                    $(this).get(0).pause();
-                                                }
-
-                                            }
-                                        });
-                                        $(this).parents('.ays-pb-modals').find('audio.wp-audio-shortcode').each(function() {
-                                            if (typeof $(this).get(0) != 'undefined') {
-                                                if (!$(this).get(0).paused) {
-                                                    $(this).get(0).pause();
-                                                }
-
-                                            }
-                                        });
-
-                                        if (ays_pb_effectOut_5 != 'none') {
-                                            setTimeout(function() {
-                                                $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                ays_flag = true;
-                                            }, ays_pb_animation_close_speed);
-                                        } else {
-                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                            ays_flag = true;
-                                        }
-                                        $(document).find('#ays-pb-screen-shade_5').css({
-                                            'opacity': '0',
-                                            'display': 'none'
-                                        });
-                                        clearInterval(timer_pb_5);
-                                    });
-
-                                    var ays_pb_flag = true;
-                                    $(document).on('keydown', function(event) {
-                                        if ('1' && ays_pb_flag) {
-                                            if (event.keyCode == 27) {
-                                                $(document).find('.ays-pb-modal-close_5').trigger('click');
-                                                ays_pb_flag = false;
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_5').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_5);
-                                                }
-                                                if ('1' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('1' !== 0) {
-                                                        $('#ays_pb_close_sound_5').get(0).play();
-                                                        if (ays_pb_effectOut_5 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_5').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                                clearInterval(timer_pb_5);
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_5').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                            clearInterval(timer_pb_5);
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    });
-                                }, 1000);
-                                if ('clickSelector' != 'both') {
-                                    if ('1' && 'On' == 'On') {
-                                        $(document).find('#ays-pb-screen-shade_5').on('click', function() {
-                                            var pb_parent_div = $(this).find('.ays-pb-modals');
-                                            var pb_div = $(this).parents('.ays-pb-modals').find('.ays-pb-modal_5');
-                                            if (!pb_parent_div.is(pb_div) && pb_parent_div.has(pb_div).length === 0) {
-                                                $(document).find('.ays-pb-modal-close_5').click();
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_5').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_5);
-                                                }
-                                                if ('1' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('1' !== 0) {
-                                                        $('#ays_pb_close_sound_5').get(0).play();
-                                                        if (ays_pb_effectOut_5 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_5').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_5').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    }
-                                } else {
-                                    if ('1' && 'On' == 'On') {
-                                        $(document).find('.av_pop_modals_5').on('click', function(e) {
-                                            var pb_parent_div = $(this);
-                                            var pb_div = $(this).find('.ays-pb-modal_5');
-                                            if (!pb_div.is(e.target) && pb_div.has(e.target).length === 0) {
-                                                $(document).find('.ays-pb-modal-close_5').click();
-                                                if ('off' === 'on' && typeof sound_src !== 'undefined') {
-                                                    var audio = $('#ays_pb_sound_5').get(0);
-                                                    audio.pause();
-                                                    audio.currentTime = 0;
-                                                    clearInterval(timer_pb_5);
-                                                }
-                                                if ('1' && typeof close_sound_src !== 'undefined' && 'off' === 'on') {
-                                                    if ('1' !== 0) {
-                                                        $('#ays_pb_close_sound_5').get(0).play();
-                                                        if (ays_pb_effectOut_5 != 'none') {
-                                                            setTimeout(function() {
-                                                                $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                                var audio = $('#ays_pb_close_sound_5').get(0);
-                                                                audio.pause();
-                                                                audio.currentTime = 0;
-                                                                clearInterval(timer_pb_5);
-                                                            }, ays_pb_animation_close_speed);
-                                                        } else {
-                                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                                            var audio = $('#ays_pb_close_sound_5').get(0);
-                                                            audio.pause();
-                                                            audio.currentTime = 0;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    }
-                                }
-                            } else {
-                                $(document).find('.ays_pb_timer_5').css('display', 'none');
-                                $(document).find('.ays-pb-modal_5').css({
-                                    'animation-duration': ays_pb_animation_close_seconds + 's'
-                                });
-                                $(document).find('.ays-pb-modal-close_5').one('click', function() {
-                                    let ays_pb_effectOut_5 = $(document).find('#ays_pb_modal_animate_out_5').val();
-                                    $(document).find('.av_pop_modals_5').css('pointer-events', 'none');
-                                    $(document).find('.ays-pb-modal_5').attr('class', 'ays-pb-modal ays-pb-modal_5 TaaSPopup ' + ays_pb_effectOut_5);
-                                    $(this).parents('.ays-pb-modals').find('iframe').each(function() {
-                                        var key = /https:\/\/www.youtube.com/;
-                                        var src = $(this).attr('src');
-                                        $(this).attr('src', $(this).attr('src'));
-                                    });
-                                    $(this).parents('.ays-pb-modals').find('video.wp-video-shortcode').each(function() {
-                                        if (typeof $(this).get(0) != 'undefined') {
-                                            if (!$(this).get(0).paused) {
-                                                $(this).get(0).pause();
-                                            }
-
-                                        }
-                                    });
-                                    $(this).parents('.ays-pb-modals').find('audio.wp-audio-shortcode').each(function() {
-                                        if (typeof $(this).get(0) != 'undefined') {
-                                            if (!$(this).get(0).paused) {
-                                                $(this).get(0).pause();
-                                            }
-
-                                        }
-                                    });
-                                    if (ays_pb_effectOut_5 != 'none') {
-                                        setTimeout(function() {
-                                            $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                            $(document).find('.av_pop_modals_5').css('display', 'none');
-                                            ays_flag = true;
-                                        }, ays_pb_animation_close_speed);
-                                    } else {
-                                        $(document).find('.ays-pb-modal_5').css('display', 'none');
-                                        $(document).find('.av_pop_modals_5').css('display', 'none');
-                                        ays_flag = true;
-                                    }
-
-                                    $(document).find('#ays-pb-screen-shade_5').css({
-                                        'opacity': '0',
-                                        'display': 'none'
-                                    });
-                                });
-                            }
-                        }
-
-
-                        if ('') {
-                            $(document).find('body').removeClass('pb_enable_scroll');
-                            $(document).find('body').addClass('pb_disable_scroll');
-
-                            $(document).find('html').removeClass('pb_enable_scroll');
-                            $(document).find('html').addClass('pb_disable_scroll');
-                            jQuery(document).on('click', '.ays-pb-modal-close_5', function() {
-                                $(document).find('body').removeClass('pb_disable_scroll');
-                                $(document).find('body').addClass('pb_enable_scroll');
-
-                                $(document).find('html').removeClass('pb_disable_scroll');
-                                $(document).find('html').addClass('pb_enable_scroll');
-                            });
-                        }
-
-                        if ('On' != 'On') {
-                            $(document).find('#ays-pb-screen-shade_5').css({
-                                'opacity': '0',
-                                'display': 'none !important',
-                                'pointer-events': 'none'
-                            });
-                            $(document).find('.ays-pb-modal_5').css('pointer-events', 'auto');
-                            $(document).find('.av_pop_modals_5').css('pointer-events', 'none');
-                        };
-                        if (0 != 0 && 'off' != 'on') {
-                            $(document).find('.ays-pb-modal-close_5').css({
-                                'display': 'none'
-                            });
-                            setTimeout(function() {
-                                $(document).find('.ays-pb-modal-close_5').css({
-                                    'display': 'block'
-                                });
-                            }, 0);
-                        };
-                    }
-                    if (0 == 0) {
-                        if ('1' && 'On' == 'On') {
-                            $(document).find('.av_pop_modals_5').on('click', function(e) {
-                                var pb_parent = $(this);
-                                var pb_div = $(this).find('.ays-pb-modal_5');
-                                if (!pb_div.is(e.target) && pb_div.has(e.target).length === 0) {
-                                    $(document).find('.ays-pb-modal-close_5').click();
-                                }
-                            });
-                        }
-                        var ays_pb_flag = true;
-                        $(document).on('keydown', function(event) {
-                            if ('1' && ays_pb_flag) {
-                                if (event.keyCode == 27) {
-                                    $(document).find('.ays-pb-modal-close_5').trigger('click');
-                                    ays_pb_flag = false;
-                                }
-                            }
-                        });
-                    }
-                });
-                if ('On' != 'On') {
-                    $(document).find('#ays-pb-screen-shade_5').css({
-                        'opacity': '0',
-                        'display': 'none !important',
-                        'pointer-events': 'none'
-                    });
-                    $(document).find('.ays-pb-modal_5').css('pointer-events', 'auto');
-                    $(document).find('.av_pop_modals_5').css('pointer-events', 'none');
-                };
-                if ('clickSelector' != 'both') {
-                    if ($(document).find('.ays-pb-modals video').hasClass('wp-video-shortcode')) {
-                        var videoWidth = $(document).find('.ays-pb-modals video.wp-video-shortcode').attr('width');
-                        var videoHeight = $(document).find('.ays-pb-modals video.wp-video-shortcode').attr('height');
-                        setTimeout(function() {
-                            $(document).find('.ays-pb-modals .wp-video').removeAttr('style');
-                            $(document).find('.ays-pb-modals .mejs-container').removeAttr('style');
-                            $(document).find('.ays-pb-modals video.wp-video-shortcode').removeAttr('style');
-
-                            $(document).find('.ays-pb-modals .wp-video').css({
-                                'width': '100%'
-                            });
-                            $(document).find('.ays-pb-modals .mejs-container').css({
-                                'width': '100%',
-                                'height': videoHeight + 'px'
-                            });
-                            $(document).find('.ays-pb-modals video.wp-video-shortcode').css({
-                                'width': '100%',
-                                'height': videoHeight + 'px'
-                            });
-                        }, 1000);
-                    }
-                    if ($(document).find('.ays-pb-modals iframe').attr('style') != '') {
-                        setTimeout(function() {
-                            $(document).find('.ays-pb-modals iframe').removeAttr('style');
-                        }, 500);
-                    }
-                }
-
-            });
-        })(jQuery);
-    </script>
-    <script type="text/javascript">
-        function genesisBlocksShare(url, title, w, h) {
-            var left = (window.innerWidth / 2) - (w / 2);
-            var top = (window.innerHeight / 2) - (h / 2);
-            return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=600, top=' + top + ', left=' + left);
-        }
-    </script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
     <script>
@@ -4134,7 +3236,7 @@
             background: transparent !important
         }
     </style>
-    
+
     <script type="text/javascript" src="./content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4" id="contact-form-7-js"></script>
     <script type="text/javascript" src="./content/plugins/goodlayers-core/plugins/script.js?ver=1669228741" id="gdlr-core-plugin-js"></script>
     <script type="text/javascript" id="gdlr-core-page-builder-js-extra">
@@ -4152,9 +3254,6 @@
     <script type="text/javascript" src="./content/plugins/goodlayers-core/include/js/page-builder.js?ver=1.3.9" id="gdlr-core-page-builder-js"></script>
     <script type="text/javascript" src="./content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5" defer async id="tp-tools-js"></script>
     <script type="text/javascript" src="./content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5" defer async id="revmin-js"></script>
-    <script type="text/javascript" src="./content/plugins/genesis-blocks/dist/assets/js/dismiss.js?ver=1667266842" id="genesis-blocks-dismiss-js-js"></script>
-
-
     <script type="text/javascript" src="./includes/js/jquery/ui/effect.min.js?ver=1.13.2" id="jquery-effects-core-js"></script>
     <script type="text/javascript" src="./content/themes/infinite/js/mmenu.js?ver=1.0.0" id="infinite-mmenu-js"></script>
     <script type="text/javascript" src="./content/themes/infinite/js/jquery.superfish.js?ver=1.0.0" id="infinite-jquery-superfish-js"></script>
